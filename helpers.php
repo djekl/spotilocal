@@ -71,7 +71,7 @@ function play($track) {
     $result   = json_decode($result);
     curl_close($ch);
 
-    var_dump($result);
+    return $result;
 }
 
 // pause the track
@@ -98,7 +98,7 @@ function pause() {
     $result   = json_decode($result);
     curl_close($ch);
 
-    var_dump($result);
+    return $result;
 }
 
 // resume the track
@@ -125,7 +125,7 @@ function resume() {
     $result   = json_decode($result);
     curl_close($ch);
 
-    var_dump($result);
+    return $result;
 }
 
 // get version
@@ -146,7 +146,7 @@ function getVersion() {
     $result   = json_decode($result);
     curl_close($ch);
 
-    var_dump($result);
+    return $result;
 }
 
 // get the current status
