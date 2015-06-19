@@ -30,7 +30,7 @@ print PHP_EOL . PHP_EOL;
 
 
 // sleep
-sleep(3);
+sleep(30);
 
 
 // play the playlist
