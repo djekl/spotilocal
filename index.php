@@ -25,6 +25,16 @@ sleep(3);
 // play the track
 // =====================================
 // our spotify track url
-$track = "spotify:track:4Tyv7nnNTHC6mR1pTubIrw";
-var_dump(play($track));
+var_dump(play("spotify:track:4Tyv7nnNTHC6mR1pTubIrw"));
+print PHP_EOL . PHP_EOL;
+
+
+// sleep
+sleep(3);
+
+
+// play the playlist
+// =====================================
+// our spotify track url
+var_dump(play("spotify:user:djekl:playlist:1AIZcUvQ6f8rnGx7vSGPHN"));
 print PHP_EOL . PHP_EOL;
